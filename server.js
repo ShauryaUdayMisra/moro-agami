@@ -13,6 +13,11 @@ const app = express();
 app.use(express.json({ limit: '16kb' }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Serve ui-text.json for client-side translations (safe — no secrets)
+app.get('/data/ui-text.json', (req, res) => {
+  res.sendFile(path.join(__dirname, 'data', 'ui-text.json'));
+});
+
 // ── Load knowledge base at startup ──────────────────────────────────────────
 const KB = {};
 const KB_FILES = ['scholarships', 'pathways', 'exams', 'schools'];

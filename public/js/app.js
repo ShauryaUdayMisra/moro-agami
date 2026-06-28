@@ -120,7 +120,7 @@ function htmlLang() {
   return `
     <div class="lang-screen">
       <div class="lang-logo">ମୋ ଭବିଷ୍ୟ</div>
-      <div class="lang-tagline">Moro Agami · मेरा भविष्य</div>
+      <div class="lang-tagline">ମୋ ଭବିଷ୍ୟ · Moro Agami · मेरा भविष्य</div>
       <div class="lang-title">Choose your language / ଭାଷା ବାଛ</div>
       <div class="lang-btns">
         <button class="lang-btn" data-lang="odia">ଓଡ଼ିଆ</button>
@@ -217,7 +217,7 @@ function htmlIntake() {
   return `
     <div class="screen">
       <div class="topbar">
-        <button class="topbar-back" id="btn-intake-back">←</button>
+        <button class="topbar-back" id="btn-intake-back" aria-label="${esc(t('intake_back'))}">←</button>
         <span class="topbar-title">${esc(t('intake_title'))}</span>
       </div>
       <div class="screen-body">
@@ -271,7 +271,7 @@ async function mountResults(app) {
   app.innerHTML = `
     <div class="screen">
       <div class="topbar">
-        <button class="topbar-back" id="btn-results-back">←</button>
+        <button class="topbar-back" id="btn-results-back" aria-label="${esc(t('intake_back'))}">←</button>
         <span class="topbar-title">${esc(t('results_title'))}</span>
       </div>
       <div class="screen-body" id="results-body">
@@ -405,9 +405,19 @@ function resultCardHtml(e) {
 
 function buildResultsPrompt() {
   const topicLabel = S.topicLabel || S.topic || '';
-  const cls = S.intake.class ? `Class ${S.intake.class}` : 'unknown class';
-  const cat = S.intake.category || 'unknown category';
-  return `I am a student in ${cls}, category ${cat}. I want to know about: "${topicLabel}". Please give me a short, warm introduction to the options you found for me.`;
+  const cls = S.intake.class || '';
+  const cat = S.intake.category || '';
+
+  if (S.lang === 'odia') {
+    const who = [cls ? `ଶ୍ରେଣୀ ${cls}` : '', cat ? `${cat} ବର୍ଗ` : ''].filter(Boolean).join(', ');
+    return `ମୁଁ ଏକ ଛାତ୍ର${who ? ` (${who})` : ''}। ବିଷୟ: "${topicLabel}"। ଦୟାକରି ଏକ ସଂକ୍ଷିପ୍ତ, ଉତ୍ସାହଜନକ ପ୍ରସ୍ତାବନା ଦିଅ।`;
+  }
+  if (S.lang === 'hindi') {
+    const who = [cls ? `कक्षा ${cls}` : '', cat ? `${cat} वर्ग` : ''].filter(Boolean).join(', ');
+    return `मैं एक छात्र हूँ${who ? ` (${who})` : ''}। विषय: "${topicLabel}"। कृपया एक संक्षिप्त, प्रोत्साहक परिचय दीजिए।`;
+  }
+  const who = [cls ? `Class ${cls}` : '', cat ? `category ${cat}` : ''].filter(Boolean).join(', ');
+  return `I am a student${who ? ` (${who})` : ''}. Topic: "${topicLabel}". Please give a short, warm introduction to the options for me.`;
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -422,7 +432,7 @@ function mountChat(app) {
   app.innerHTML = `
     <div class="chat-screen">
       <div class="topbar">
-        <button class="topbar-back" id="btn-chat-back">←</button>
+        <button class="topbar-back" id="btn-chat-back" aria-label="${esc(t('chat_back'))}">←</button>
         <span class="topbar-title">${esc(t('chat_title'))}</span>
       </div>
       <div class="chat-messages" id="chat-messages"></div>
@@ -502,6 +512,7 @@ function messageBubbleHtml(msg, index) {
 
 async function sendMessage() {
   const input = document.getElementById('chat-input');
+  const sendBtn = document.getElementById('btn-chat-send');
   const text = input?.value.trim();
   if (!text) return;
 
@@ -513,6 +524,9 @@ async function sendMessage() {
   const userMsg = { role: 'user', content: text };
   S.messages.push(userMsg);
   appendMessage(userMsg, S.messages.length - 1);
+
+  // Disable send button to prevent double-tap on slow connections
+  if (sendBtn) sendBtn.disabled = true;
 
   // Show typing indicator
   showTyping(true);
@@ -537,6 +551,9 @@ async function sendMessage() {
     const assistantMsg = { role: 'assistant', content: errMsg };
     S.messages.push(assistantMsg);
     appendMessage(assistantMsg, S.messages.length - 1);
+  } finally {
+    if (sendBtn) sendBtn.disabled = false;
+    input?.focus();
   }
 }
 
