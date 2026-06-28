@@ -1,0 +1,11 @@
+# Secret keys — never commit these
+.env
+
+# Installed packages — anyone can regenerate with "npm install"
+node_modules/
+
+# Runtime logs — not part of the source code
+logs/
+
+# macOS metadata files — irrelevant to the project
+.DS_Store

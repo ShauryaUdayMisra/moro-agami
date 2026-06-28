@@ -1,0 +1,123 @@
+[
+  {
+    "id": "emrs-eklavya-residential",
+    "name": "EMRS — Eklavya Model Residential School",
+    "odia_name": "ଏକ୍ଲବ୍ୟ ମଡ଼େଲ ଆବାସିକ ବିଦ୍ୟାଳୟ (EMRS)",
+    "hindi_name": "एकलव्य मॉडल आवासीय विद्यालय (EMRS)",
+    "category": ["ST"],
+    "class_level": ["6", "7", "8", "9", "10", "11", "12"],
+    "family_context": ["any"],
+    "summary": "Ministry of Tribal Affairs government residential schools for ST (Scheduled Tribe) students — completely free education, boarding, food, and books from Class 6 to 12, on par with Navodaya Vidyalayas, with focus on tribal districts.",
+    "amount_inr": "Free — tuition, boarding, meals, books, and uniform all covered",
+    "deadline_pattern": "Admission via EMRSST (a selection test administered in Odisha by OMTES). Entry primarily at Class 6; lateral entry to Classes 7–9 for vacancies. Admission guidelines published yearly by OMTES — verify at omtes.org or emrs.tribal.gov.in.",
+    "portal_url": "https://emrs.tribal.gov.in",
+    "documents": [
+      "ST caste certificate",
+      "Birth certificate or age proof (2-year age relaxation for differently-abled)",
+      "Class 5 marksheet (for Class 6 admission)",
+      "Domicile / residence certificate (for the notified tribal district)",
+      "Aadhaar card"
+    ],
+    "time_to_income": null,
+    "last_verified": "2025-12-01",
+    "verify_before_use": true,
+    "notes": "Odisha numbers: 114 EMRS sanctioned, approximately 47 functional (serving 13,000+ tribal students), 64 under construction, 3 at land-identification stage — as of OMTES data. Some third-party sources cite '104' — treat OMTES figures as authoritative and cite 'as of December 2025.' Notable districts: Mayurbhanj, Malkangiri, Nabarangpur, Rayagada. ST category is mandatory. The selection test (EMRSST) is administered by OMTES — contact omtes.org for the current cycle schedule."
+  },
+  {
+    "id": "kiss-bhubaneswar",
+    "name": "KISS — Kalinga Institute of Social Sciences, Bhubaneswar",
+    "odia_name": "KISS — କଳିଙ୍ଗ ସାମାଜିକ ବିଜ୍ଞାନ ଅନୁଷ୍ଠାନ, ଭୁବନେଶ୍ୱର",
+    "hindi_name": "KISS — कलिंग इंस्टीट्यूट ऑफ सोशल साइंसेज, भुवनेश्वर",
+    "category": ["ST"],
+    "class_level": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "UG"],
+    "family_context": ["any"],
+    "summary": "World's largest fully free residential institution for ST (tribal / Adivasi) students — from KG to university graduation; everything is free: tuition, boarding, food, healthcare, clothing, and vocational training; deemed university since 2017.",
+    "amount_inr": "Free — education, boarding, food, healthcare, clothing, and vocational training all covered",
+    "deadline_pattern": "Admissions open periodically; the most recent notice was for ST students for Classes 1–5 (with ~60% preference for girls). BPL condition for out-of-state children. Verify at kiss.ac.in — do not rely on third-party dates.",
+    "portal_url": "https://kiss.ac.in",
+    "documents": [
+      "ST caste certificate",
+      "Birth certificate",
+      "Previous class marksheet",
+      "BPL card or income certificate (required for out-of-state children)",
+      "Aadhaar card",
+      "Photograph"
+    ],
+    "time_to_income": null,
+    "last_verified": "2025-12-01",
+    "verify_before_use": true,
+    "notes": "Founded 1993 by Prof. Achyuta Samanta. Total enrollment ~27,000 current students; 40,000+ including alumni (figures cited at different times — use 'approximately' and cite year). KALSEE (Kalinga Social Science Entrance Examination) is referenced for higher-level entry. Located in Bhubaneswar (Kalinga Nagar campus). About 60% of students are girls. For students outside Odisha: BPL condition applies. Higher classes: verify KALSEE or direct admission process at kiss.ac.in."
+  },
+  {
+    "id": "anwesha-english-medium",
+    "name": "Anwesha — English-Medium Schooling for Disadvantaged ST / SC Children",
+    "odia_name": "ଅନ୍ୱେଷା — ST/SC ପିଲାଙ୍କ ଇଂଲିଶ ମାଧ୍ୟମ ଶିକ୍ଷା",
+    "hindi_name": "अन्वेषा — ST/SC बच्चों के लिए अंग्रेजी माध्यम शिक्षा",
+    "category": ["SC", "ST"],
+    "class_level": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "family_context": ["any"],
+    "summary": "Odisha ST & SC Development Department scheme placing disadvantaged ST/SC children from 17 tribal districts in urban English-medium schools with hostels — fully funded; covers tuition, uniform, books, transport, boarding, and after-school tutoring. Entry at Class 1.",
+    "amount_inr": "Free — tuition, uniform, books, transport, boarding, and after-school tutoring all covered by the state",
+    "deadline_pattern": "Selection by lottery; entry primarily at Class 1. Contact your district ST & SC Development Office or check stsc.odisha.gov.in for the current cycle. Application typically before Class 1 admission season (March–May).",
+    "portal_url": "https://stsc.odisha.gov.in",
+    "documents": [
+      "ST or SC caste certificate",
+      "Birth certificate",
+      "BPL card or income/poverty certificate (remote area / BPL focus)",
+      "Domicile certificate from one of the 17 tribal-concentrated districts",
+      "Aadhaar card"
+    ],
+    "time_to_income": null,
+    "last_verified": "2025-12-01",
+    "verify_before_use": true,
+    "notes": "Scale (figures vary by source and year): approximately 21,000–22,340 children enrolled across approximately 80–98 hostels and 135–177 partner schools. Launched 21 December 2015; extended in 2020 for 5 more years (₹569.90 crore). Covers 17 tribal-concentrated districts. English-medium instruction gives these children the same advantage as urban private-school students. IMPORTANT: Entry is at Class 1 — if a student is in Class 9–12 already, this scheme likely does not apply. Direct Class 9+ students to EMRS or scholarship options instead."
+  },
+  {
+    "id": "kmrs-kalinga-model",
+    "name": "KMRS — Kalinga Model Residential School (Odisha ST & SC Dept / OMTES)",
+    "odia_name": "KMRS — କଳିଙ୍ଗ ମଡ଼େଲ ଆବାସିକ ବିଦ୍ୟାଳୟ",
+    "hindi_name": "KMRS — कलिंग मॉडल आवासीय विद्यालय",
+    "category": ["ST", "SC"],
+    "class_level": ["6", "7", "8", "9", "10", "11", "12"],
+    "family_context": ["any"],
+    "summary": "Additional Odisha residential school option for tribal and SC students, run alongside EMRS under OMTES / the ST & SC Development Department — free residential education for disadvantaged students.",
+    "amount_inr": "verify_on_portal",
+    "deadline_pattern": "Verify current admission process and calendar at omtes.org or stsc.odisha.gov.in.",
+    "portal_url": "https://omtes.org",
+    "documents": [
+      "ST / SC caste certificate",
+      "Birth certificate",
+      "Previous class marksheet",
+      "Domicile certificate",
+      "Aadhaar card"
+    ],
+    "time_to_income": null,
+    "last_verified": "2025-12-01",
+    "verify_before_use": true,
+    "notes": "Less documented in available sources than EMRS and Anwesha — verify current number of functional schools, intake classes, and eligibility directly with OMTES or the district ST & SC office."
+  },
+  {
+    "id": "bpav-biju-patnaik-vidyalaya",
+    "name": "BPAV — Biju Patnaik Adarsh Vidyalaya",
+    "odia_name": "BPAV — ବିଜୁ ପଟ୍ଟନାୟକ ଆଦର୍ଶ ବିଦ୍ୟାଳୟ",
+    "hindi_name": "BPAV — बीजू पटनायक आदर्श विद्यालय",
+    "category": ["General", "SC", "ST", "OBC", "SEBC"],
+    "class_level": ["6", "7", "8", "9", "10", "11", "12"],
+    "family_context": ["any"],
+    "summary": "Odisha residential school model named after Biju Patnaik — another government residential option for disadvantaged students, referenced alongside EMRS and KMRS in Odisha's tribal education system.",
+    "amount_inr": "verify_on_portal",
+    "deadline_pattern": "Verify at omtes.org or stsc.odisha.gov.in for current admissions.",
+    "portal_url": "https://omtes.org",
+    "documents": [
+      "Caste certificate (if applicable)",
+      "Birth certificate",
+      "Previous class marksheet",
+      "Domicile certificate",
+      "Aadhaar card"
+    ],
+    "time_to_income": null,
+    "last_verified": "2025-12-01",
+    "verify_before_use": true,
+    "notes": "Limited documentation in current sources — verify current scope, eligibility, and whether BPAV is open to non-tribal students, with OMTES or the local district education office."
+  }
+]

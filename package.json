@@ -1,0 +1,17 @@
+{
+  "name": "moro-agami",
+  "version": "1.0.0",
+  "description": "AI career guidance chatbot for Odisha government school students",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "jee-main",
+    "name": "JEE Main — Joint Entrance Examination (Engineering)",
+    "odia_name": "JEE ମୁଖ୍ୟ — ଯୁଗ୍ମ ପ୍ରବେଶ ପରୀକ୍ଷା (ପ୍ରକୌଶଳ)",
+    "hindi_name": "JEE मेन — संयुक्त प्रवेश परीक्षा (इंजीनियरिंग)",
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "class_level": ["12"],
+    "family_context": ["any"],
+    "exam_type": "engineering",
+    "summary": "National entrance exam for NITs, IIITs, CFTIs (central technical colleges), and gateway to JEE Advanced for IITs — two sessions per year, offered in 13 languages including Odia.",
+    "amount_inr": null,
+    "deadline_pattern": "Session 1 registration typically November–December; Session 2 registration February–March. Exam in January and April. Verify at jeemain.nta.nic.in — dates change each year.",
+    "portal_url": "https://jeemain.nta.nic.in",
+    "documents": [
+      "Class 12 admit card / passing certificate",
+      "Aadhaar card",
+      "Category certificate (if applying under reserved category)",
+      "Passport-size photograph"
+    ],
+    "time_to_income": null,
+    "last_verified": "2025-12-01",
+    "verify_before_use": true,
+    "notes": "Available in Odia — choosing Odia language ties you to exam centres within Odisha. Odia candidates get a bilingual (Odia + English) booklet; English prevails in case of translation ambiguity. Class 12 with Physics, Chemistry, and Mathematics (PCM) required. Free coaching available: Chhatra Protsahan Yojana (CPY) for ST/SC — ~7 Centres of Excellence; Central Free Coaching Scheme for SC/OBC (coaching.dosje.gov.in). Honest context: highly competitive; prepare for 1–2 years of dedicated study."
+  },
+  {
+    "id": "neet-ug",
+    "name": "NEET-UG — National Eligibility cum Entrance Test (Medical)",
+    "odia_name": "NEET-UG — ଜାତୀୟ ଯୋଗ୍ୟତା ଓ ପ୍ରବେଶ ପରୀକ୍ଷା (ଚିକିତ୍ସା)",
+    "hindi_name": "NEET-UG — राष्ट्रीय पात्रता सह प्रवेश परीक्षा (मेडिकल)",
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "class_level": ["12"],
+    "family_context": ["any"],
+    "exam_type": "medical",
+    "summary": "Single national entrance exam for MBBS, BDS, AYUSH, nursing, and allied health UG courses — once a year, pen-paper exam, available in 13 languages including Odia.",
+    "amount_inr": null,
+    "deadline_pattern": "Registration typically February–March; exam in May. Verify at neet.nta.nic.in — dates change each year.",
+    "portal_url": "https://neet.nta.nic.in",
+    "documents": [
+      "Class 12 marksheet with Physics, Chemistry, Biology (PCB)",
+      "Aadhaar card",
+      "Category certificate (if applicable)",
+      "Passport-size photograph"
+    ],
+    "time_to_income": null,
+    "last_verified": "2025-12-01",
+    "verify_before_use": true,
+    "notes": "Requires Class 12 PCB (Physics, Chemistry, Biology). Offered in Odia: bilingual (Odia + English) booklet; English prevails in dispute. Odia language selection ties candidate to Odisha exam centres. For those who cannot afford coaching: CPY free coaching (ST/SC, stsc.odisha.gov.in); OPTCL/PSU CSR free residential NEET coaching at Aakash Institute Bhubaneswar (EWS — verify availability). GNM nursing is also accessible via DMET Odisha and does NOT require NEET."
+  },
+  {
+    "id": "cuet-ug",
+    "name": "CUET-UG — Common University Entrance Test (Central & Participating Universities)",
+    "odia_name": "CUET-UG — କେନ୍ଦ୍ରୀୟ ବିଶ୍ୱବିଦ୍ୟାଳୟ ପ୍ରବେଶ ପରୀକ୍ଷା",
+    "hindi_name": "CUET-UG — केंद्रीय विश्वविद्यालय प्रवेश परीक्षा",
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "class_level": ["12"],
+    "family_context": ["any"],
+    "exam_type": "central_university",
+    "summary": "Common entrance test for admissions to all central universities and many state/private participating universities across India — available in 13 languages including Odia, no upper age limit, Class 12 pass required.",
+    "amount_inr": null,
+    "deadline_pattern": "Registration typically February–April; exam May–June. Verify at cuet.nta.nic.in.",
+    "portal_url": "https://cuet.nta.nic.in",
+    "documents": [
+      "Class 12 marksheet or admit card (for appearing students)",
+      "Aadhaar card",
+      "Category certificate (if applicable)"
+    ],
+    "time_to_income": null,
+    "last_verified": "2025-12-01",
+    "verify_before_use": true,
+    "notes": "Offered in Odia. Minimum qualifying marks for admission vary by institution and course: typically 50% for General/OBC, 40% for SC/ST/PwD at central universities — verify per institution in the current CUET information bulletin. No upper age limit (unlike some other exams). Central Universities of Odisha: Utkal University, Berhampur University, Sambalpur University (state), and Ravenshaw University participate or may participate — verify the current list on cuet.nta.nic.in."
+  },
+  {
+    "id": "ojee",
+    "name": "OJEE — Odisha Joint Entrance Examination",
+    "odia_name": "OJEE — ଓଡ଼ିଶା ଯୁଗ୍ମ ପ୍ରବେଶ ପରୀକ୍ଷା",
+    "hindi_name": "OJEE — ओडिशा संयुक्त प्रवेश परीक्षा",
+    "category": ["General", "SC", "ST", "OBC", "SEBC", "EWS"],
+    "class_level": ["12", "Diploma", "ITI"],
+    "family_context": ["any"],
+    "exam_type": "state_engineering_lateral",
+    "summary": "Odisha state-level exam covering lateral entry into B.Tech 2nd year (for ITI/diploma holders), B.Pharm, MCA, MBA, M.Tech, integrated MBA, and some nursing courses — the main route for ITI/polytechnic graduates to enter B.Tech without JEE.",
+    "amount_inr": null,
+    "deadline_pattern": "Registration typically March–April; verify at ojee.nic.in.",
+    "portal_url": "https://ojee.nic.in",
+    "documents": [
+      "ITI certificate or Diploma marksheet (for lateral entry)",
+      "Class 12 marksheet (for direct B.Pharm / non-lateral entry courses)",
+      "Odisha domicile certificate",
+      "Aadhaar card",
+      "Category certificate (if applicable)"
+    ],
+    "time_to_income": null,
+    "last_verified": "2025-12-01",
+    "verify_before_use": true,
+    "notes": "Fresh B.Tech admissions are now largely via JEE Main rank (not OJEE). OJEE focuses on lateral entry and PG/pharmacy/professional. Key reservation facts: SC/ST get 5% relaxation in minimum aggregate; 30% reservation for women in B.Tech/B.Plan/B.Arch/MBA/M.Tech (verify current brochure). OL (Outlying Odia) category for Odia-speakers residing outside Odisha (requires nativity certificate + Odia language test). ITI holders fill 80% of B.Tech lateral entry seats — 20% go to +2 PCM students. This is the 'second door to engineering' for ITI/polytechnic students who did not take JEE."
+  }
+]
