@@ -10,6 +10,7 @@ const { logInteraction } = require('./src/logger');
 const { rateLimiter } = require('./src/rateLimiter');
 
 const app = express();
+app.set('trust proxy', 1);
 app.use(express.json({ limit: '16kb' }));
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -58,7 +59,9 @@ app.post('/api/chat', rateLimiter, async (req, res) => {
     return res.status(400).json({ error: 'invalid_input', message: 'messages array required' });
   }
 
-  const lastMsg = messages[messages.length - 1]?.content || '';
+  // Cap history to last 10 turns to control token cost
+  const cappedMessages = messages.slice(-10);
+  const lastMsg = cappedMessages[cappedMessages.length - 1]?.content || '';
 
   // Moderation gate
   const mod = moderateInput(lastMsg);
@@ -75,7 +78,7 @@ app.post('/api/chat', rateLimiter, async (req, res) => {
   const model = topic === 'chat' ? 'gemini-2.5-flash' : 'gemini-2.5-flash-lite';
 
   try {
-    const text = await callGemini(messages, systemPrompt, model);
+    const text = await callGemini(cappedMessages, systemPrompt, model);
 
     logInteraction({
       ip: hashIP(req.ip || req.connection?.remoteAddress || ''),

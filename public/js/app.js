@@ -655,9 +655,10 @@ function renderText(text) {
   const out = [];
   let inList = false;
   for (const line of lines) {
-    if (/^[-•]\s/.test(line.trimStart())) {
+    const trimmed = line.trimStart();
+    if (/^[-•]\s/.test(trimmed)) {
       if (!inList) { out.push('<ul>'); inList = true; }
-      out.push(`<li>${line.replace(/^[-•]\s/, '')}</li>`);
+      out.push(`<li>${trimmed.replace(/^[-•]\s/, '')}</li>`);
     } else {
       if (inList) { out.push('</ul>'); inList = false; }
       out.push(line ? `<p>${line}</p>` : '');

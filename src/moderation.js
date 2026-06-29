@@ -12,11 +12,12 @@ const BLOCKED = [
   // Slurs / hate — add as needed
 ];
 
+const BLOCKED_RE = BLOCKED.map(kw => new RegExp(`\\b${kw}\\b`, 'i'));
+
 function moderateInput(text) {
   if (!text || typeof text !== 'string') return { ok: true };
-  const lower = text.toLowerCase();
-  for (const kw of BLOCKED) {
-    if (lower.includes(kw)) return { ok: false, reason: kw };
+  for (const re of BLOCKED_RE) {
+    if (re.test(text)) return { ok: false, reason: re.source };
   }
   return { ok: true };
 }
