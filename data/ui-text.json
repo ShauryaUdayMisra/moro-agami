@@ -1,6 +1,6 @@
 {
   "odia": {
-    "app_name": "ମୋ ଭବିଷ୍ୟ",
+    "app_name": "Moro Agami",
     "app_tagline": "ତୁମ ଭବିଷ୍ୟତ ପାଇଁ ଗାଇଡ",
 
     "lang_select_title": "ଭାଷା ବାଛ",
@@ -55,7 +55,7 @@
 
     "results_title": "ତୁମ ପାଇଁ ବିକଳ୍ପ",
     "results_no_results": "ଆମ ଜ୍ଞାନ ଭଣ୍ଡାରରେ ଏ ପାଇଁ ଏବେ ନାହିଁ। ଚ୍ୟାଟ ଖୋଲ ଓ ସିଧା ପ୍ରଶ୍ନ ପଚାର।",
-    "results_ai_intro_loading": "ମୋ ଭବିଷ୍ୟ ଭାବୁଛି...",
+    "results_ai_intro_loading": "Moro Agami ଭାବୁଛି...",
     "results_ai_intro_error": "ଏ ମୁହୂର୍ତ୍ତରେ ଏଆଇ ଯୋଡ଼ି ହୋଇ ପାରୁ ନାହିଁ। ତଳ ତଥ୍ୟ ପଢ଼।",
     "results_verify_warning": "⚠ ଅଧିକୃତ ୱେବସାଇଟରେ ଯାଞ୍ଚ କର",
     "results_portal_btn": "ଅଧିକୃତ ୱେବସାଇଟ ଦେଖ →",
@@ -66,12 +66,12 @@
     "results_entry_after": "ଯୋଗ୍ୟତା:",
     "results_open_chat": "ଆଉ ପ୍ରଶ୍ନ ପଚାର",
 
-    "chat_title": "ମୋ ଭବିଷ୍ୟ ସହ କଥା ହୁଅ",
+    "chat_title": "Moro Agami ସହ କଥା ହୁଅ",
     "chat_placeholder": "ତୁମ ପ୍ରଶ୍ନ ଲେଖ...",
     "chat_send": "ପଠାଅ",
     "chat_loading": "ଭାବୁଛି...",
     "chat_error": "କ୍ଷମା କର, ସଂଯୋଗ ହୋଇ ପାରୁ ନାହିଁ। ପୁଣି ଚେଷ୍ଟା କର।",
-    "chat_welcome": "ନମସ୍କାର! ମୁଁ ମୋ ଭବିଷ୍ୟ। ତୁମ ଯେକୌଣସି ପ୍ରଶ୍ନ ପଚାର — ଛାତ୍ରବୃତ୍ତି, ଚାକିରି, ପ୍ରଶିକ୍ଷଣ, ଯାହା ହେଉ।",
+    "chat_welcome": "ନମସ୍କାର! ମୁଁ Moro Agami। ତୁମ ଯେକୌଣସି ପ୍ରଶ୍ନ ପଚାର — ଛାତ୍ରବୃତ୍ତି, ଚାକିରି, ପ୍ରଶିକ୍ଷଣ, ଯାହା ହେଉ।",
     "chat_feedback_helpful": "👍 ସାହାଯ୍ୟ ହେଲା",
     "chat_feedback_not_helpful": "👎 ସାହାଯ୍ୟ ହେଲା ନାହିଁ",
     "chat_fab": "ପ୍ରଶ୍ନ ପଚାର",
@@ -82,7 +82,7 @@
   },
 
   "hindi": {
-    "app_name": "मेरा भविष्य",
+    "app_name": "Moro Agami",
     "app_tagline": "आपके भविष्य के लिए मार्गदर्शक",
 
     "lang_select_title": "भाषा चुनें",
@@ -137,7 +137,7 @@
 
     "results_title": "आपके लिए विकल्प",
     "results_no_results": "अभी हमारे पास इस विषय की जानकारी नहीं है। चैट खोलें और सीधे पूछें।",
-    "results_ai_intro_loading": "मेरा भविष्य सोच रहा है...",
+    "results_ai_intro_loading": "Moro Agami सोच रहा है...",
     "results_ai_intro_error": "AI अभी उपलब्ध नहीं है। नीचे की जानकारी पढ़ें।",
     "results_verify_warning": "⚠ आधिकारिक वेबसाइट पर जाँचें",
     "results_portal_btn": "आधिकारिक वेबसाइट देखें →",
@@ -148,12 +148,12 @@
     "results_entry_after": "योग्यता:",
     "results_open_chat": "और सवाल पूछें",
 
-    "chat_title": "मेरा भविष्य से बात करें",
+    "chat_title": "Moro Agami से बात करें",
     "chat_placeholder": "अपना सवाल लिखें...",
     "chat_send": "भेजें",
     "chat_loading": "सोच रहा हूँ...",
     "chat_error": "माफ करें, अभी कनेक्ट नहीं हो पा रहा। फिर से कोशिश करें।",
-    "chat_welcome": "नमस्ते! मैं मेरा भविष्य हूँ। कोई भी सवाल पूछें — छात्रवृत्ति, नौकरी, ट्रेनिंग — जो भी मन में हो।",
+    "chat_welcome": "नमस्ते! मैं Moro Agami हूँ। कोई भी सवाल पूछें — छात्रवृत्ति, नौकरी, ट्रेनिंग — जो भी मन में हो।",
     "chat_feedback_helpful": "👍 मददगार रहा",
     "chat_feedback_not_helpful": "👎 मददगार नहीं रहा",
     "chat_fab": "सवाल पूछें",

@@ -119,8 +119,8 @@ function goto(screen) {
 function htmlLang() {
   return `
     <div class="lang-screen">
-      <div class="lang-logo">ମୋ ଭବିଷ୍ୟ</div>
-      <div class="lang-tagline">ମୋ ଭବିଷ୍ୟ · Moro Agami · मेरा भविष्य</div>
+      <div class="lang-logo">Moro Agami</div>
+      <div class="lang-tagline">Moro Agami</div>
       <div class="lang-title">Choose your language / ଭାଷା ବାଛ</div>
       <div class="lang-btns">
         <button class="lang-btn" data-lang="odia">ଓଡ଼ିଆ</button>
